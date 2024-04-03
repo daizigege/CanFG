@@ -1,5 +1,6 @@
 
-预训练模型：https://1drv.ms/f/s!AnCU8F8OvSvXqRR3VB-XJTnIfs-Z?e=6DLvrE
+预训练模型：链接：https://pan.baidu.com/s/1Lx9Lvq8bIBO8npRrmzWZZA?pwd=ojf7 
+提取码：ojf7
 
 ## License
 人脸对齐处理代码可参考https://github.com/TropComplique/mtcnn-pytorch
