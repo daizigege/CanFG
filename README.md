@@ -1,3 +1,5 @@
+Make Privacy Renewable! Generating Privacy-Preserving Faces Supporting Cancelable Biometric Recognition
+
 
 预训练模型：链接：https://pan.baidu.com/s/1Lx9Lvq8bIBO8npRrmzWZZA?pwd=ojf7 
 提取码：ojf7
