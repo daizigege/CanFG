@@ -10,3 +10,5 @@ Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
 
 网络结构参考 来自 https://github.com/elvisyjlin/AttGAN-PyTorch
 
+更多的评估指标或数据可以参考 https://github.com/fkeufss/PRO-Face
+
