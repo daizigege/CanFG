@@ -1,4 +1,5 @@
-Make Privacy Renewable! Generating Privacy-Preserving Faces Supporting Cancelable Biometric Recognition
+This repo is the official implementation of 
+“Make Privacy Renewable! Generating Privacy-Preserving Faces Supporting Cancelable Biometric Recognition”
 
 Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
 
