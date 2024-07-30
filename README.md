@@ -18,7 +18,7 @@ Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
   author={Wang, Tao and Zhang, Yushu and Xiao, Xiangli and Yuan, Lin and Xia, Zhihua and Weng, Jian},
   booktitle={Proc.  ACM Int. Conf. Multimedia},
   pages={},
-  year={2024}
+  year={2024},
   doi={10.1145/3664647.3680704}
 }
 ```
