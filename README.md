@@ -8,6 +8,9 @@ Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
 
 对于输入的人脸（训练或测试），需要使用人脸对齐处理代码将其设定为128像素
 
+![image](Teaser_Image.png)
+
+
 ## License
 
 更多的评估指标或数据可以参考 https://github.com/fkeufss/PRO-Face
