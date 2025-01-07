@@ -20,7 +20,7 @@ Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
   title={Make Privacy Renewable! Generating Privacy-Preserving Faces Supporting Cancelable Biometric Recognition},
   author={Wang, Tao and Zhang, Yushu and Xiao, Xiangli and Yuan, Lin and Xia, Zhihua and Weng, Jian},
   booktitle={Proc.  ACM Int. Conf. Multimedia},
-  pages={},
+  pages={10268--10276},
   year={2024},
   doi={10.1145/3664647.3680704}
 }
