@@ -10,6 +10,14 @@ Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
 
 ![image](Teaser_Image.png)
 
+Step one: training the Auxiliary Physical Identity Remover
+run training_for_Remover.py,   You can adjust the parameters lambda_rec and lambda_id
+
+
+Step two: training  CanFG
+run  training_for_CanFG.py,  You can adjust the parameters lambda_rec, lambda_em and lp, and modify the seed in CanFG.py "torch.manual_seed(85)" to obtain other random_orthogonal_matrix.
+
+
 
 ## License
 
