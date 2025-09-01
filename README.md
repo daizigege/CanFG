@@ -2,11 +2,13 @@ This repo is the official implementation of
 “Make Privacy Renewable! Generating Privacy-Preserving Faces Supporting Cancelable Biometric Recognition”  (2024 ACM MM)
 
 Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
+Pretrained models：https://drive.google.com/drive/folders/1HEWHaSyyNnX9owJWLB_mIAIIzHQ49Fka?usp=drive_link
 
-预训练模型：链接：https://pan.baidu.com/s/1Lx9Lvq8bIBO8npRrmzWZZA?pwd=ojf7 
-提取码：ojf7
 
-对于输入的人脸（训练或测试），需要使用人脸对齐处理代码将其设定为128像素
+
+
+
+For input faces (whether training or test), the face alignment processing code must be employed to resize them to 128 pixels with "data_pre-processing"
 
 ![image](Teaser_Image.png)
 
