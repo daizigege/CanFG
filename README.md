@@ -2,7 +2,9 @@ This repo is the official implementation of
 “Make Privacy Renewable! Generating Privacy-Preserving Faces Supporting Cancelable Biometric Recognition”  (2024 ACM MM)
 
 Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
-Pretrained models：https://drive.google.com/drive/folders/1HEWHaSyyNnX9owJWLB_mIAIIzHQ49Fka?usp=drive_link
+
+
+Pretrained models and exapmles：https://drive.google.com/drive/folders/1HEWHaSyyNnX9owJWLB_mIAIIzHQ49Fka?usp=drive_link
 
 
 
