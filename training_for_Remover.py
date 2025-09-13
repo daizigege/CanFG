@@ -7,7 +7,7 @@ import torch.utils.data as data
 import torch
 import torchvision.utils as vutils
 # todo
-from CanFG import CanFG
+from Remover import CanFG
 
 import os
 
