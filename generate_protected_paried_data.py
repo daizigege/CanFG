@@ -53,7 +53,7 @@ args.betas = (args.beta1, args.beta2)
 dataset='CelebA'
 #配对的数据（包括相同身份和不同身份）#
 
-valid_dataset = CelebA_test('/media/HDD1/wangtao/lunwen5_new/data/'+dataset+'/A_/','/media/HDD1/wangtao/lunwen5_new/data/'+dataset+'/AA_/')
+valid_dataset = CelebA_test('/media/HDD1/wangtao/lunwen5_new/data/'+dataset+'/A/','/media/HDD1/wangtao/lunwen5_new/data/'+dataset+'/AA/')
 valid_dataloader = data.DataLoader(
     valid_dataset, batch_size=args.n_samples, num_workers=args.num_workers,
     shuffle=False, drop_last=False

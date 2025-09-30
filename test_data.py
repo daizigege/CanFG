@@ -16,7 +16,7 @@ class CelebA_test(data.Dataset):
         super(CelebA_test, self).__init__()
         self.data_path1 = data_path1
         self.data_path2 = data_path2
-        self.images = list(set(sorted(os.listdir(self.data_path1))) & set(sorted(os.listdir(self.data_path2))))
+        self.images = sorted(list(set(sorted(os.listdir(self.data_path1))) & set(sorted(os.listdir(self.data_path2)))))
 
         self.tf = transforms.Compose([
             transforms.ToTensor(),
