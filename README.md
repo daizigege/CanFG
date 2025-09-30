@@ -10,9 +10,15 @@ Pretrained models and exapmles：https://drive.google.com/drive/folders/1HEWHaSy
 
 
 
-For input faces (whether training or test), the face alignment processing code must be employed to resize them to 128 pixels with "data_pre-processing"
+## For input faces (whether training or test), the face alignment processing code must be employed to resize them to 128 pixels with "data_pre-processing"
 
 ![image](Teaser_Image.png)
+
+
+## Just for testing
+run generate_protected_paried_data.py
+
+## Training a new model: (There may be code errors that have not yet been fixed.)
 
 Step one: training the Auxiliary Physical Identity Remover
 
