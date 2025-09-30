@@ -96,7 +96,7 @@ for epoch in range(0,args.epochs):
             errD = CanFG.trainD(img_a)
         else:
             errG = CanFG.trainG(img_a)
-            progressbar.say(epoch=epoch, iter=it + 1, d_loss=errD['d_loss'], g_loss=errG['sum_loss'],gr_loss=errG['gr_loss'],em_loss=errG['em_loss'],id_loss=errG['id_loss'])
+            progressbar.say(epoch=epoch, iter=it + 1, d_loss=errD['d_loss'], g_loss=errG['sum_loss'],gr_loss=errG['gr_loss'],id_loss=errG['id_loss'])
         it += 1
 
     if epoch %1==0 :
