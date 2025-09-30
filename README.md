@@ -18,7 +18,7 @@ Pretrained models and examples cropped data：https://drive.google.com/drive/fol
 ## Just for testing
 run generate_protected_paried_data.py
 
-## Training a new model: (There may be code errors that have not yet been fixed.)
+## Training a new model: (There may be minor code errors that need to be fixed.)
 
 Step one: training the Auxiliary Physical Identity Remover
 
