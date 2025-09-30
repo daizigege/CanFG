@@ -126,9 +126,8 @@ class CanFG(nn.Module):
         self.lambda_rec = args.lambda_rec
         self.lambda_gp = args.lambda_gp
         self.lambda_id=args.lambda_id
-        self.lambda_em=args.lambda_em
         self.lambda_lp=args.lambda_lp
-
+        
         if self.lambda_lp>0:
             self.LPIPS = lpips.LPIPS(net='vgg').to(self.device)
 
@@ -162,8 +161,6 @@ class CanFG(nn.Module):
     def set_lr(self, lr):
         for g in self.optim_G.param_groups:
             g['lr'] = lr
-        for g in self.optim_EM.param_groups:
-            g['lr'] = lr
         for g in self.optim_D.param_groups:
             g['lr'] = lr
 
@@ -173,7 +170,7 @@ class CanFG(nn.Module):
             p.requires_grad = False
         img_fake = self.G(img_a)#保护人脸
 
-        img_ano = self.Ano (img_a).detach()  # 匿名人脸
+        img_ano = self.Ano(img_a).detach()  # 匿名人脸
 
         #1、GAN 损失
         d_fake = self.D(img_fake)
@@ -202,15 +199,11 @@ class CanFG(nn.Module):
         sum_loss = gf_loss + self.lambda_rec * gr_loss+ self.lambda_id * id_loss
 
         self.optim_G.zero_grad()
-
-        self.optim_EM.zero_grad()
-
         sum_loss.backward()
         self.optim_G.step()
-        self.optim_EM.step()
         errG = {
             'sum_loss': sum_loss.item(), 'gr_loss': gr_loss.item(),
-            'id_loss': 0,'em_loss': EM_loss.item()
+            'id_loss': id_loss.item(),
         }
         return errG
 
@@ -420,4 +413,5 @@ class ConvTranspose2dBlock(nn.Module):
 
     def forward(self, x):
         return self.layers(x)
+
 
