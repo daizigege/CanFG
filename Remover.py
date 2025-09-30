@@ -297,12 +297,7 @@ class CanFG(nn.Module):
         self.optim_G.load_state_dict(states['optim_G'])
         # if 'optim_D' in states:
         self.optim_D.load_state_dict(states['optim_D'])
-        # if 'optim_EM' in states:
-        try:
-            # 可能会引发错误的代码
-            self.optim_EM.load_state_dict(states['optim_EM'])
-        except Exception as e:
-            print("虚拟身份提取器的模型参数不对")
+
 
 
     def saveG(self, path):
@@ -413,5 +408,6 @@ class ConvTranspose2dBlock(nn.Module):
 
     def forward(self, x):
         return self.layers(x)
+
 
 
