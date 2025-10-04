@@ -32,8 +32,9 @@ run  training_for_CanFG.py,  You can adjust the parameters lambda_rec, lambda_em
 
 
 ## License
+Data preprocessing reference from  https://github.com/taotaonice/FaceShifter/tree/master/face_modules
 
-更多的评估指标或数据可以参考 https://github.com/fkeufss/PRO-Face
+More assessment metrics or data can be referenced.  https://github.com/fkeufss/PRO-Face
 
 ```
 @inproceedings{wang2024make,
