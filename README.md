@@ -4,7 +4,7 @@ This repo is the official implementation of
 Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
 
 
-## Pretrained models and examples cropped data：
+## Pretrained models and protected examples of Celeb
 Google Drive: https://drive.google.com/drive/folders/1HEWHaSyyNnX9owJWLB_mIAIIzHQ49Fka?usp=drive_link
 
 
