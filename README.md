@@ -12,7 +12,7 @@ Google Drive: https://drive.google.com/drive/folders/1HEWHaSyyNnX9owJWLB_mIAIIzH
 
 
 ## For input faces (whether training or test):
-the face alignment processing code must be employed to resize them to 128 pixels with "data_pre-processing"
+the face alignment processing code must be employed to resize them to 128 pixels with "data_pre-processing". Don't need any installation of MTCNN, just download our code.
 
 Data preprocessing is consistent with https://github.com/richarduuz/Research_Project/tree/master/ModelC/face_modules, just modify crop_size=(256, 256) to crop_size=(128, 128)
 
