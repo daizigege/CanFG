@@ -3,6 +3,7 @@ This repo is the official implementation of
 
 Tao Wang, Yushu Zhang, Xiangli Xiao, Lin Yuan, Zhihua Xia, Jian Weng
 
+![image](Teaser_Image.png)
 
 ## Pretrained models and protected examples of Celeb
 Google Drive: https://drive.google.com/drive/folders/1HEWHaSyyNnX9owJWLB_mIAIIzHQ49Fka?usp=drive_link
@@ -16,7 +17,7 @@ the face alignment processing code must be employed to resize them to 128 pixels
 
 Data preprocessing is consistent with https://github.com/richarduuz/Research_Project/tree/master/ModelC/face_modules, just modify crop_size=(256, 256) to crop_size=(128, 128)
 
-![image](Teaser_Image.png)
+
 
 
 ## Just for testing
