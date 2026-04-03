@@ -127,6 +127,7 @@ class CanFG(nn.Module):
         self.lambda_gp = args.lambda_gp
         self.lambda_id=args.lambda_id
         self.lambda_lp=args.lambda_lp
+        self.mean_identity= torch.load('mean_identity.pt')
         
         if self.lambda_lp>0:
             self.LPIPS = lpips.LPIPS(net='vgg').to(self.device)
